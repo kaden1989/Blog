@@ -1,0 +1,12 @@
+{"name":"bunyan","hostname":"hp430-PC","pid":6932,"level":30,"msg":"app.js","time":"2017-10-16T13:25:09.186Z","v":0}
+{"name":"bunyan","hostname":"hp430-PC","pid":6932,"level":40,"lang":"fr","msg":"au revoir","time":"2017-10-16T13:25:09.187Z","v":0}
+{"name":"bunyan","hostname":"hp430-PC","pid":6932,"level":30,"foo":"some foo","msg":"some info msg","time":"2017-10-16T13:25:09.188Z","v":0}
+{"name":"bunyan","hostname":"hp430-PC","pid":8524,"level":30,"msg":"app.js","time":"2017-10-16T13:27:04.206Z","v":0}
+{"name":"bunyan","hostname":"hp430-PC","pid":8524,"level":40,"lang":"fr","msg":"au revoir","time":"2017-10-16T13:27:04.207Z","v":0}
+{"name":"bunyan","hostname":"hp430-PC","pid":8524,"level":30,"foo":"some foo","msg":"some info msg","time":"2017-10-16T13:27:04.208Z","v":0}
+{"name":"bunyan","hostname":"hp430-PC","pid":8932,"level":30,"msg":"app.js","time":"2017-10-16T13:27:21.206Z","v":0}
+{"name":"bunyan","hostname":"hp430-PC","pid":8932,"level":40,"lang":"fr","msg":"au revoir","time":"2017-10-16T13:27:21.208Z","v":0}
+{"name":"bunyan","hostname":"hp430-PC","pid":8932,"level":30,"foo":"some foo","msg":"some info msg","time":"2017-10-16T13:27:21.208Z","v":0}
+{"name":"bunyan","hostname":"hp430-PC","pid":9080,"level":30,"msg":"app.js","time":"2017-10-16T13:28:34.182Z","v":0}
+{"name":"bunyan","hostname":"hp430-PC","pid":9080,"level":40,"lang":"fr","msg":"au revoir","time":"2017-10-16T13:28:34.183Z","v":0}
+{"name":"bunyan","hostname":"hp430-PC","pid":9080,"level":30,"foo":"some foo","msg":"some info msg","time":"2017-10-16T13:28:34.183Z","v":0}

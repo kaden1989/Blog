@@ -1,0 +1,115 @@
+
+<% include header.ejs %>
+
+<h1 class="text-muted" style="padding-left:20px">Welcome  <%= user %> back. It's Show Time!!!</h1>
+<a class="btn" href="/logout">退出</a>
+<div class="container">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <!-- <h3 class="text-muted">Project name</h3> -->
+        <nav>
+          <ul class="nav nav-justified">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Downloads</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron" style="height: 410px;" >
+      <div style="width: 55%;height: 80%;float: left;">
+        <h1>Prefect  is  Shit!</h1>
+        <p class="lead">As food is to the body, so is learning to the mind. Our bodies grow and muscles develop with the intake of adequate nutritious food. Likewise, we should keep learning day by day to maintain our keen mental power and expand our intellectual capacity. </p>
+        <p><a class="btn btn-lg btn-success" href="/show" role="button">Get started today</a></p>
+	</div>
+
+     	<div id="slidershow" class="carousel slide" data-ride="carousel" style="width:20%;height:80%;float:right">
+			 <!-- 设置图片轮播的顺序 -->
+			 <ol class="carousel-indicators" style="bottom:-20px;position:abslote">
+				 <li class="active" data-target="#slidershow" data-slide-to="0"></li>
+				 <li data-target="#slidershow" data-slide-to="1"></li>
+				 <li data-target="#slidershow" data-slide-to="2"></li>
+			 </ol>
+			 <!-- 设置轮播图片 -->
+			 <div class="carousel-inner">
+				 <div style="height: 100%;width: 100%" class="item active">
+					 <a href="##"><img src="..\images/k3.jpg" style="height: 100%;width: 100%"></a>
+					 <div class="carousel-caption">
+					 
+				</div>
+				 </div>
+				 <div style="height: 100%;width: 100%" class="item">
+					 <a href="##"><img class="img-responsive" src="..\images/k1.jpg" style="height: 100%;width: 100%"></a>
+					 <div class="carousel-caption">
+					</div>
+				</div>
+				<div style="height: 100%;width: 100%" class="item">
+					 <a href="##"><img src="..\images/k2.jpg" style="height: 100%;width: 100%"></a>
+					 <div class="carousel-caption">
+						
+					 </div>
+				</div>
+			 </div>
+			 <!-- 设置轮播图片控制器 -->
+			 <a class="left carousel-control" href="#slidershow" role="button" data-slide="prev">
+			 	<span class="glyphicon glyphicon-chevron-left"></span>
+			 </a>
+			 <a class="right carousel-control" href="#slidershow" role="button" data-slide="next">
+			 	<span class="glyphicon glyphicon-chevron-right"></span>
+			 </a>
+			</div>
+		
+      </div>
+<!-- 
+      Example row of columns
+      <div class="row" style="clear:both">
+        <div class="col-lg-4">
+          <h2>Safari bug warning!</h2>
+          <p class="text-danger">As of v9.1.2, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.</p>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+		 -->
+
+		<div class="row" style="clear:both">
+		  <div class="col-sm-8 col-md-8">
+		    <div class="thumbnail">
+		    <div style="width:100%;height:100%">
+		      <img src="..\images/chongqing.jpg" alt="..." style="height:100%;width:100%">
+		     </div>
+		      <div class="caption">
+		        <h3>重庆</h3>
+		        <p>三年重邮研究生求学生涯，了解重庆、认识重庆、离开重庆</p>
+		        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+        <div class="col-lg-6">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-lg-6">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <!-- Site footer -->
+      <!-- <footer class="footer">
+        <p>&copy; 2016 Company, Inc.</p>
+      </footer>
+       -->
+    </div> <!-- /container -->
+
+
+<% include footer.ejs %>

@@ -1,0 +1,98 @@
+<% include header.ejs %>
+
+<link href="../css/style.css" rel="stylesheet">
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/login">点我，走你!</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/login">Sign up</a></li>
+			<li><a href="/reg">Sign in</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+				<% if(locals.islogin){%>
+   			欢迎<h2><%= test %></h2>来到
+					<h1>三体世界</h1>
+					<h2 class="subtitle">消灭人类暴政，世界属于三体</h2>
+									
+				</div>
+				<div class="col-lg-4 col-lg-offset-2">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					  </ol>					
+					  <!-- slides -->
+					  <div class="carousel-inner" style="border-radius:10px">
+						<div class="item active">
+						  <img src="../images/slide1.jpg" alt="">
+						</div>
+						<div class="item">
+						  <img src="../images/slide2.jpg" alt="">
+						</div>
+						<div class="item">
+						  <img src="../images/slide3.jpg" alt="">
+						</div>
+					  </div>
+					</div>		
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+<% }else{%>
+ <h1>三体世界</h1>
+					<h2 class="subtitle">消灭人类暴政，世界属于三体</h2>
+					
+					<form class="form-inline signup" role="form" action='/login'>
+					  <div class="form-group">
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
+					  </div>
+					  <button type="submit" class="btn btn-theme">传送门</button>
+					</form>					
+				</div>
+				<div class="col-lg-4 col-lg-offset-2">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					  </ol>					
+					  <!-- slides -->
+					  <div class="carousel-inner" style="border-radius:10px">
+						<div class="item active">
+						  <img src="../images/slide1.jpg" alt="">
+						</div>
+						<div class="item">
+						  <img src="../images/slide2.jpg" alt="">
+						</div>
+						<div class="item">
+						  <img src="../images/slide3.jpg" alt="">
+						</div>
+					  </div>
+					</div>		
+				</div>
+				
+			</div>
+		</div>
+	</div>
+ <%}%>
+
+
+<% include footer.ejs %>
